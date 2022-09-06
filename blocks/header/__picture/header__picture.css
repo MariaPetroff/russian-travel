@@ -1,0 +1,10 @@
+.header__picture {
+  max-width: 984px;
+  max-height: 615px;
+  aspect-ratio: 984/615;
+  object-fit: cover;
+  display: flex;
+  flex-wrap: wrap;
+
+  z-index: 2;
+}

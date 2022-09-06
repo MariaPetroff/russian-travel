@@ -1,0 +1,8 @@
+.gallery__item {
+  max-width: 284px;
+  max-height: 213px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  box-sizing: border-box;
+}

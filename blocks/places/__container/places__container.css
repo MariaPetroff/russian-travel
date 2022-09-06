@@ -1,0 +1,12 @@
+.places__container {
+  display: grid;
+  min-width: calc(100vw-96px);
+  grid-template-columns: minmax(min-content, max-content), 1fr;
+  grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 48px 40px;
+  margin: 0 auto 82px;
+
+  box-sizing: border-box;
+}
