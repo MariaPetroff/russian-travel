@@ -2,7 +2,7 @@
 @import url(../pages/index.css);
 
 @import url(../blocks/root/root.css);
-@import url(../fonts/fonts.css);
+@import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__bar/header__bar.css);
@@ -10,11 +10,13 @@
 @import url(../blocks/header/__languages/header__languages.css);
 @import url(../blocks/header/__lang-ru/header__lang-ru.css);
 @import url(../blocks/header/__lang-eng/header__lang-eng.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__picture/header__picture.css);
-@import url(../blocks/header/__picture-container/header__picture-container.css);
-@import url(../blocks/header/__picture-caption/header__picture-caption.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__picture-container/lead__picture-container.css);
+@import url(../blocks/lead/__picture/lead__picture.css);
+@import url(../blocks/lead/__picture-caption/lead__picture-caption.css);
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__heading/intro__heading.css);

@@ -1,6 +1,8 @@
-.header__picture {
+.lead__picture {
   max-width: 984px;
   max-height: 615px;
+  padding: 0;
+  margin: 0 auto;
   object-fit: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -9,21 +11,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .header__picture {
+  .lead__picture {
     max-width: 928px;
     max-height: 580px;
   }
 }
 
 @media screen and (max-width: 955px) {
-  .header__picture {
+  .lead__picture {
     max-width: 768px;
     max-height: 480px;
   }
 }
 
 @media screen and (max-width: 786px) {
-  .header__picture {
+  .lead__picture {
     max-width: 320px;
     max-height: 200px;
   }
