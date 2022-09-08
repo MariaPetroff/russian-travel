@@ -1,8 +1,9 @@
 .header__bar {
   display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 28px 48px 56px;
+  margin: 0 auto;
+  justify-content:space-between;
+  max-width: 1184px;
+  padding: 20px 48px 24px;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,5 +1,4 @@
 .header__picture {
-
   max-width: 984px;
   max-height: 615px;
   object-fit: cover;
@@ -7,14 +6,12 @@
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-
 }
 
 @media screen and (max-width: 1024px) {
   .header__picture {
     max-width: 928px;
     max-height: 580px;
-
   }
 }
 
@@ -22,7 +19,6 @@
   .header__picture {
     max-width: 768px;
     max-height: 480px;
-
   }
 }
 
@@ -30,7 +26,5 @@
   .header__picture {
     max-width: 320px;
     max-height: 200px;
-
   }
 }
-

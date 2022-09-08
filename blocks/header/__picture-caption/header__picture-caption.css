@@ -14,27 +14,23 @@
 @media screen and (max-width: 1024px) {
   .header__picture-caption {
     margin-left: calc(50% - 464px);
-
   }
 }
 
 @media screen and (max-width: 955px) {
   .header__picture-caption {
     margin-left: calc(50% - 384px);
-
   }
 }
 
 @media screen and (max-width: 786px) {
   .header__picture-caption {
     margin-left: 24px;
-
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__picture-caption {
     margin-left: 16px;
-
   }
 }
