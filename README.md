@@ -1,5 +1,5 @@
 # Проект: Путешествие по России
-# Russian-travel/
+# Russian-travel/ https://mariapetroff.github.io/russian-travel/
 
 ## Russian-travel - 3й спринт курса "Веб-разработчик" Яндекс Практикума/
 
