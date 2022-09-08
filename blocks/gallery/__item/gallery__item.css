@@ -5,4 +5,27 @@
   padding: 0;
   object-fit: cover;
   box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1025px) {
+  .gallery__item {
+    max-width: 300px;
+    max-height: 225px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .gallery__item {
+    max-width: 352px;
+    max-height: 264px;
+  }
+}
+
+@media screen and (max-width: 726px) {
+  .gallery__item {
+    max-width: 288px;
+    max-height: 216px;
+  }
 }

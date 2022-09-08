@@ -6,4 +6,13 @@
   line-height: 1.22;
   display: flex;
   flex-wrap: wrap;
+  max-width: 360px;
+}
+
+@media screen and (max-width: 646px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.43;
+    max-width: 288px;
+  }
 }

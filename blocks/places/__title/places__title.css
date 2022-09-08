@@ -9,6 +9,33 @@
   padding: 0;
   margin: 0;
   display: flex;
+
   flex-wrap: wrap;
 
+}
+
+@media screen and (max-width: 1024px) {
+  .places__title {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 955px) {
+  .places__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__title {
+    max-width: 320px;
+    font-size: 32px;
+    line-height: 1.1;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0;
+    margin: 0 16px;
+  }
 }

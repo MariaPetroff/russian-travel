@@ -1,0 +1,8 @@
+.places__text {
+  padding: 0;
+  margin: 0 auto 25px;
+}
+
+.places__text:last-child {
+  margin-bottom: 0;
+}
