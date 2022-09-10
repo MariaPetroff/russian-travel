@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 767px) {
   .lead__picture-caption {
     margin-left: 24px;
   }

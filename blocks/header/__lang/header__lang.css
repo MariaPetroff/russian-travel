@@ -1,0 +1,12 @@
+.header__lang {
+  display: flex;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  transition: opacity 0.3s;
+}
+
+.header__lang:hover {
+  opacity: 0.5;
+}

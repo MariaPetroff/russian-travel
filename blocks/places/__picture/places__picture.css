@@ -22,12 +22,10 @@
   .places__picture {
     max-width: 340px;
     max-height: 340px;
-    align-self: start;
-    justify-self: center;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .places__picture {
     max-width: 320px;
     max-height: 320px;

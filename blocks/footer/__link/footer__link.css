@@ -4,6 +4,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.13;
+  transition: opacity 0.3s;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 730px) {

@@ -13,7 +13,7 @@
   color: rgba(255, 255, 255, .8);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .places__link {
     margin: 0;
     padding: 0;
