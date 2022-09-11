@@ -5,10 +5,12 @@
   grid-template-rows: repeat(3, 213px);
   grid-template-columns: repeat(4, 284px);
   justify-items: center;
+  justify-content: center;
+  max-width: calc(100% - 96px);
   gap: 16px;
 }
 
-@media screen and (max-width: 1205px) {
+@media screen and (max-width: 1270px) {
   .gallery {
     max-width: calc(100% - 96px);
     grid-template-rows: repeat(4, 1fr);
@@ -17,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .gallery {
     margin: 0 28px 88px;
     grid-template-rows: repeat(6, 1fr);
@@ -26,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 770px) {
   .gallery {
     margin: 0 auto 64px;
     padding: 0 16px;

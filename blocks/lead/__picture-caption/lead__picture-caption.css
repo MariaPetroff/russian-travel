@@ -20,17 +20,24 @@
 @media screen and (max-width: 955px) {
   .lead__picture-caption {
     margin-left: calc(50% - 384px);
+    max-width: 100%;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .lead__picture-caption {
     margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead__picture-caption {
-    margin-left: 16px;
+    margin-left: calc(50% - 160px)
   }
+}
+
+  @media screen and (max-width: 320px) {
+    .lead__picture-caption {
+      margin-left: 16px;
+    }
 }

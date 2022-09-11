@@ -5,9 +5,9 @@
   margin: 0 auto;
   object-fit: cover;
   background-repeat: no-repeat;
-  display: flex;
-  flex-wrap: wrap;
   box-sizing: border-box;
+  display: flex;
+  justify-self: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,6 +23,11 @@
     max-height: 480px;
   }
 }
+@media screen and (max-width: 900px) {
+  .lead__picture {
+    max-width: 100%;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .lead__picture {
@@ -30,3 +35,4 @@
     max-height: 200px;
   }
 }
+
