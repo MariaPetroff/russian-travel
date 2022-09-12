@@ -21,14 +21,14 @@
 
 @media screen and (max-width: 1000px) {
   .gallery {
-    margin: 0 28px 88px;
+    margin: 0 auto 88px;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
   .gallery {
     margin: 0 auto 64px;
     padding: 0 16px;

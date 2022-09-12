@@ -4,7 +4,6 @@
   margin: 0 0 92px;
   padding: 0;
   justify-content: center;
-
 }
 
 @media screen and (max-width: 955px) {
@@ -15,7 +14,12 @@
 
 @media screen and (max-width: 790px) {
   .lead {
-    margin-bottom: 64px;
     max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    margin-bottom: 64px;
   }
 }
